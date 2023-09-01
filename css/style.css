@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(35, 35, 142);
+}
+
+.header__ttl {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.header-nav {
+    color: rgb(35, 35, 142);
+}
+
+.header-nav-item {
+    list-style: none;
+
+}
+
+.header-nav-item-link {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.main__img {
+    margin: 0px 0px 0px auto;
+    width: 50%;
+    z-index: 10;
+    position: relative;
+}
+
+.main__img img {
+    width: 100%;
+}
+
+.main__content {
+    position: absolute;
+    top: 40%;
+}
+
+.main__content-ttl {
+    display: inline;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.main__box {
+    width: 1000px;
+    height: 200px;
+    background: rgb(19, 19, 113);
+    z-index: 5;
+}
